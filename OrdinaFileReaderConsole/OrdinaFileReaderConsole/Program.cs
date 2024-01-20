@@ -19,14 +19,14 @@ namespace OrdinaFileReaderConsole
                 string path = Console.ReadLine();
                 string fileContent = File.ReadAllText(path);
                 
-                if (path.EndsWith("txt"))
+                if (path.EndsWith("txt") || path.EndsWith("xml"))
                 {
                     Console.Clear();
                     Console.WriteLine("Content:\n\n" + fileContent);
                 }
                 else
                 {
-                    Console.WriteLine("\n\nError: Given file is not a text file.");
+                    Console.WriteLine("\n\nError: Given file is not a text or XML file.");
                 }
             }
             catch (ArgumentException)
