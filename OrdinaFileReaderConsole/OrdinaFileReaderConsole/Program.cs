@@ -16,10 +16,10 @@ namespace OrdinaFileReaderConsole
 
             try
             {
-                string path = Console.ReadLine();
+                string path = Console.ReadLine().Replace("\"","");
                 string fileContent = File.ReadAllText(path);
                 
-                if (path.EndsWith("txt") || path.EndsWith("xml"))
+                if (Path.GetExtension(path).Equals(".txt", StringComparison.OrdinalIgnoreCase) || Path.GetExtension(path).Equals(".xml", StringComparison.OrdinalIgnoreCase))
                 {
                     Console.Clear();
                     Console.WriteLine("Content:\n\n" + fileContent);
@@ -35,7 +35,7 @@ namespace OrdinaFileReaderConsole
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("Something went wrong.");
             }
 
             Console.ReadKey();
