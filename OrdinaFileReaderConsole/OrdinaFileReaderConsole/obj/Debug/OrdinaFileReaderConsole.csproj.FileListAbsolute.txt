@@ -1,0 +1,7 @@
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\bin\Debug\OrdinaFileReaderConsole.exe.config
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\bin\Debug\OrdinaFileReaderConsole.exe
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\bin\Debug\OrdinaFileReaderConsole.pdb
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\obj\Debug\OrdinaFileReaderConsole.csproj.AssemblyReference.cache
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\obj\Debug\OrdinaFileReaderConsole.csproj.CoreCompileInputs.cache
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\obj\Debug\OrdinaFileReaderConsole.exe
+C:\Users\kubat\OneDrive\Bureaublad\Ordina\ordina-opdracht\OrdinaFileReaderConsole\OrdinaFileReaderConsole\obj\Debug\OrdinaFileReaderConsole.pdb
