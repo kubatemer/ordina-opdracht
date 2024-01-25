@@ -36,6 +36,7 @@ namespace OrdinaFileReaderConsole
                             string fileContent = File.ReadAllText(path);
                             Console.Clear();
                             DisplayContent(fileContent);
+                            AskForDecryption(fileContent);
                         }
                         else if (extension.Equals(".txt", StringComparison.OrdinalIgnoreCase) || extension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
                         {
