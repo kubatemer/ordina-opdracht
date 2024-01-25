@@ -31,7 +31,7 @@ namespace OrdinaFileReaderConsole
                     {
                         string extension = Path.GetExtension(path);
 
-                        if (extension.Equals(".txt", StringComparison.OrdinalIgnoreCase) || extension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
+                        if (extension.Equals(".txt", StringComparison.OrdinalIgnoreCase) || extension.Equals(".xml", StringComparison.OrdinalIgnoreCase) || extension.Equals(".json", StringComparison.OrdinalIgnoreCase))
                         {
                             string fileContent = File.ReadAllText(path);
 
@@ -39,7 +39,7 @@ namespace OrdinaFileReaderConsole
                         }
                         else
                         {
-                            DisplayError($"Given file (\"{path}\") is not a text or XML file.");
+                            DisplayError($"Given file (\"{path}\") is not a text, XML  or JSON file.");
                         }
                     }
                     else
@@ -49,7 +49,6 @@ namespace OrdinaFileReaderConsole
                 }
                 catch (Exception)
                 {
-                    DisplayError($"Given path (\"{path}\") is invalid or empty.");
                     DisplayError("Something went wrong.");
                 }
             }

@@ -16,7 +16,7 @@ namespace OrdinaFileReaderConsole.Services
             rolePermissions = new Dictionary<string, List<string>>
             {
                 { "admin", new List<string> { ".xml", ".txt" } },
-                { "user", new List<string> {".txt" } }
+                { "user", new List<string> {".txt", ".json" } }
             };
         }
 
