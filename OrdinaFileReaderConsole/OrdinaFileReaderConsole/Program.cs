@@ -31,7 +31,13 @@ namespace OrdinaFileReaderConsole
                     {
                         string extension = Path.GetExtension(path);
 
-                        if (extension.Equals(".txt", StringComparison.OrdinalIgnoreCase) || extension.Equals(".xml", StringComparison.OrdinalIgnoreCase) || extension.Equals(".json", StringComparison.OrdinalIgnoreCase))
+                        if (extension.Equals(".json", StringComparison.OrdinalIgnoreCase))
+                        {
+                            string fileContent = File.ReadAllText(path);
+                            Console.Clear();
+                            DisplayContent(fileContent);
+                        }
+                        else if (extension.Equals(".txt", StringComparison.OrdinalIgnoreCase) || extension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
                         {
                             string fileContent = File.ReadAllText(path);
 
